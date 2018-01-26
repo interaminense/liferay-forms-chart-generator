@@ -1,0 +1,15 @@
+{
+  "callToImport": [
+    {
+      "regex": "(\\S+)",
+      "replace": "{$1|param}"
+    },
+    {
+      "regex": "(\\S+)",
+      "replace": "{$1}"
+    }
+  ],
+  "implicitParams": {
+    "Chart*": ["loading_"]
+  }
+}
